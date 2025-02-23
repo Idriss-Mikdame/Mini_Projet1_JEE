@@ -5,9 +5,18 @@ public class Client {
     private String prenom;
     private String telephone;
     private String email;
+    private Reservation reservation;
 
     public Client() {
 
+    }
+
+    public Reservation getReservation() {
+        return reservation;
+    }
+
+    public void setReservation(Reservation reservation) {
+        this.reservation = reservation;
     }
 
     public String getNom() {

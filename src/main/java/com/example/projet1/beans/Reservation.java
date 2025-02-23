@@ -1,13 +1,15 @@
 package com.example.projet1.beans;
 
-public class reservetion {
+public class Reservation extends  Client  {
     private String type;
-    private String prix;
+    private double prix;
     private String option;
-    public reservetion() {
 
 
+    public Reservation() {
     }
+
+
 
     public String getType() {
         return type;
@@ -17,11 +19,11 @@ public class reservetion {
         this.type = type;
     }
 
-    public String getPrix() {
+    public double getPrix() {
         return prix;
     }
 
-    public void setPrix(String prix) {
+    public void setPrix(double prix) {
         this.prix = prix;
     }
 
